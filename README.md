@@ -1,6 +1,6 @@
 # file-sharin-system
 
-## Instalasi
+## Installation
 1. Clone repo: `git clone https://github.com/username/transferpy.git`
 2. Install dependensi: `pip install watchdog`
 3. run: `.\TransferPy.ps1` from the project folder.

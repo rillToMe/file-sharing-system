@@ -1,12 +1,15 @@
-# File Sharing System
-A web-based file sharing system with password protection and QR code access.
+# file-sharin-system
 
-## Features
-- Password-protected file access
-- QR code for easy sharing
-- Built with HTML, CSS, JS, PowerShell, and Python
+## Instalasi
+1. Clone repo: `git clone https://github.com/username/transferpy.git`
+2. Install dependensi: `pip install watchdog`
+3. run: `.\TransferPy.ps1` from the project folder.
 
-## How to Run
-1. Install Python and Git.
-2. Run `TransferPy.ps1` to start the server.
-3. Access via the generated QR code or URL.
+## Configuration
+- Folder `uploads` utomatically created at the project site.
+- Change the custom path by creating a file `config.txt` in the project folder and write the path (for example, `C:\MyUploads`).
+
+## How to use
+- Add file/folder to `uploads`.
+- Access: 1. Use `http://127.0.0.1:8888` for local computer.
+          2. Use 'http://xxx.x.x.x:8888' for other computer or phone
